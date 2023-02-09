@@ -1,5 +1,5 @@
 // DOMの読み込みが終わったらfunction()の中の処理を実行します。
-$(document).ready(function () {)
+$(document).ready(function () {
     // 「国語、英語、数学、理科、社会」の点数（入力値）を取得して合計点と平均点を出すロジック
     function score_indicate() {
       // 変数「subject_points」に「国語、英語、数学、理科、社会」の点数の配列を代入します。
@@ -48,7 +48,7 @@ $(document).ready(function () {)
 
       else{
         return"D"
-      }
+      };
 
       // もし「averageIndicate」がそれ以外なら"D"を返します。
 
@@ -106,6 +106,6 @@ $(document).ready(function () {)
        $('#alert-indicate').remove();
        judgement();
     });
-  };
+  });
 
   // ここに書かれているJavaScriptの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構いません。合格要件をすべて満たしていれば合格となります。
