@@ -28,7 +28,7 @@ $(document).ready(function () {
     function get_achievement() {
       // 変数「averageIndicate」に
       // 平均点数をHTML上のid="average_indicate"から取得して代入します。
-    }
+
       let averageIndicate = $("#average_indicate").text();
       console.log(averageIndicate)
       // もし「averageIndicate」が80以上なら"A"を返します。
@@ -48,7 +48,8 @@ $(document).ready(function () {
 
       else{
         return"D"
-      };
+      }
+    };
 
       // もし「averageIndicate」がそれ以外なら"D"を返します。
 
